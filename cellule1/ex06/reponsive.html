@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive</title>
+	<style>
+		/* Page Background */
+		body {
+			background-color: white;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+
+		/* Flex container to align boxes */
+		.container {
+			display: flex;
+			justify-content: center;
+			gap: 0px; /* Space between boxes */
+			overflow: hidden;
+			margin-top: 0;
+
+			height: 100vh;
+			text-align: left;
+		}
+
+		/* Individual Boxes */
+		.left-container{
+			width: 50%;
+			border: 1px solid black; /* Normal border */
+			border-right: 1px solid  rgb(125, 120, 120); /* Shared border */
+			background-color:  rgb(186, 239, 186);
+		}
+
+		.right-container {
+			width: 50%;
+			border: 1px solid black; /* Normal border */
+			border-left: 1px solid rgb(134, 130, 130); /* Shared border */
+			background-color: rgb(188, 188, 253);
+		}
+		a {
+			color: blue;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left-container">
+			<h2>Welcome to the Left Container</h2>
+			<p>From here, you can reach all the info about this park.</p>
+			<a href="https://www.google.com">Click here for more details</a>
+		</div>
+
+		<div class="right-container">
+			<h2>Welcome to the Right Container</h2>
+			<p>From here, you can reach all the info about this city.</p>
+			<a href="https://www.google.com">Click here for more details</a>
+		</div>
+	</div>
+</body>
+</html>

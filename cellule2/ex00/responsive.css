@@ -1,0 +1,41 @@
+
+/* Page Background */
+body {
+	background-color: white;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Flex container to align boxes */
+.container {
+	display: flex;
+	justify-content: center;
+	gap: 0px; /* Space between boxes */
+	overflow: hidden;
+	margin-top: 0;
+}
+
+/* Individual Boxes */
+.left-container{
+	width: 50%;
+	height: 100vh;
+	border: 1px solid black; /* Normal border */
+	border-right: 1px solid  rgb(125, 120, 120); /* Shared border */
+	text-align: left;
+	background-color:  rgb(186, 239, 186);
+}
+
+.right-container {
+	width: 50%;
+	height:100vh;
+	border: 1px solid black; /* Normal border */
+	border-left: 1px solid rgb(134, 130, 130); /* Shared border */
+	text-align: left;
+	background-color: rgb(188, 188, 253);
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
