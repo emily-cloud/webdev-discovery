@@ -43,7 +43,7 @@ Welcome to **Web Development Discovery**, a journey into the fundamental concept
 ## How to Get Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/webdev-discovery.git
+   git clone https://github.com/emily-cloud/webdev-discovery.git
    ```
 2. Open the project in a code editor.
 3. Start with the `index.html` file and follow the progression through CSS and JS.
